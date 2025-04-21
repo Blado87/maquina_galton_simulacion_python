@@ -34,9 +34,7 @@ def simular_caida_esfera(posicion_inicial):
     niveles_recorridos = 0
 
     while niveles_recorridos < 10:
-        desplazamiento = random.choice([-1, 1])  
-        posicion_final = max(0, min(20, posicion_final + desplazamiento))
-        niveles_recorridos += 1
+       # ...
 
     return posicion_final
 ```
