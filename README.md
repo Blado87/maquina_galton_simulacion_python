@@ -7,3 +7,8 @@ El programa simula la caída de esferas desde una posición central. Cada esfera
 
 > 📚 Inspirado en el artículo de Wikipedia sobre la [Máquina de Galton](https://es.wikipedia.org/wiki/M%C3%A1quina_de_Galton).
 
+### 🧩 Ilustración de la Máquina de Galton
+
+A continuación se muestra una ilustración de un tablero o máquina de Galton. En ella se destacan algunos aspectos clave que ayudan a comprender y analizar la solución implementada en Python.
+
+![Ilustración de la Máquina de Galton](https://github.com/Blado87/maquina_galton_simulacion_python/blob/aba109bc30e93da5a60860b72eafe25ae830273e/img_guia_simulacion/tablero_simplificado.png)
