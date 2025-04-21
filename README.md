@@ -20,6 +20,6 @@ Se inicializa un arreglo con 21 elementos, todos con valor cero. Este arreglo re
 
 ```python
 histograma_caidas = [0] * 21
-
+```
 
 ![Distribución de posiciones finales](https://github.com/Blado87/maquina_galton_simulacion_python/blob/ed5dac2e330c5c2690897525352c8baf95edb71b/img_guia_simulacion/histograma_caidas.png)
