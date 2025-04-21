@@ -72,8 +72,6 @@ Cada vez que la esfera avanza un nivel (es decir, realiza un movimiento), se inc
 ```
 
 Al final  `return posicion_final` nos regresa el índice en el que termino la esfera al final de recorrido.
----
-
 
 ![Desplazamiento de la esfera](https://github.com/Blado87/maquina_galton_simulacion_python/blob/02bc4e456f26243ad3a250eaa4842cd8c3c21ba0/img_guia_simulacion/desplazamiento.png)
 
