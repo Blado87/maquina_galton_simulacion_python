@@ -40,3 +40,18 @@ def simular_caida_esfera(posicion_inicial):
 
     return posicion_final
 ```
+
+#### 🔢 `posicion_inicial`
+
+`posicion_inicial` representa la posición de salida de la esfera. Dado que los arreglos en Python comienzan en el índice `0`, el valor `10` corresponde al centro del tablero de 21 posiciones (de 0 a 20). Desde esta posición se simula el recorrido de cada esfera.
+
+La siguiente imagen ilustra la posición de partida:
+
+![imagen índice de partida](https://github.com/Blado87/maquina_galton_simulacion_python/blob/02590fc4a5fef925b437e002668484897aff38e5/img_guia_simulacion/indice_partida.png)
+
+
+
+
+
+
+
