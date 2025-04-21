@@ -31,12 +31,7 @@ Esta función representa la trayectoria de una única esfera a través del table
 ```python
 def simular_caida_esfera(posicion_inicial):
     posicion_final = posicion_inicial
-    niveles_recorridos = 0
-
-    while niveles_recorridos < 10:
        # ...
-
-    return posicion_final
 ```
 
 #### 🔢 `posicion_inicial`
