@@ -23,3 +23,20 @@ histograma_caidas = [0] * 21
 ```
 
 ![Distribución de posiciones finales](https://github.com/Blado87/maquina_galton_simulacion_python/blob/ed5dac2e330c5c2690897525352c8baf95edb71b/img_guia_simulacion/histograma_caidas.png)
+
+### 🎯 Función `simular_caida_esfera()`
+
+Esta función representa la trayectoria de una única esfera a través del tablero de la máquina de Galton. Simula su recorrido por los 10 niveles, donde en cada nivel la esfera puede desviarse aleatoriamente. Al finalizar, retorna la posición final donde cayó la esfera.
+
+```python
+def simular_caida_esfera(posicion_inicial):
+    posicion_final = posicion_inicial
+    niveles_recorridos = 0
+
+    while niveles_recorridos < 10:
+        desplazamiento = random.choice([-1, 1])  
+        posicion_final = max(0, min(20, posicion_final + desplazamiento))
+        niveles_recorridos += 1
+
+    return posicion_final
+```
