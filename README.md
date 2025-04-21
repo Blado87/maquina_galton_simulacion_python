@@ -43,7 +43,7 @@ def simular_caida_esfera(posicion_inicial):
 
 #### 🔢 `posicion_inicial`
 
-`posicion_inicial` representa la posición de salida de la esfera. Dado que los arreglos en Python comienzan en el índice `0`, el valor `10` corresponde al centro del tablero de 21 posiciones (de 0 a 20). Desde esta posición se simula el recorrido de cada esfera.
+`posicion_inicial` representa la posición de salida de la esfera. Dado que los arreglos en Python comienzan en el índice `0`, el valor `10` corresponde al centro del tablero de 21 posiciones (de 0 a 20). Desde esta posición se simula el recorrido de cada esfera. La posición final se iguala con la de inicio, para que en el siclo `while` se modifique la trayectoria de la esfera  `posicion_final = posicion_inicial` 
 
 La siguiente imagen ilustra la posición de partida:
 
